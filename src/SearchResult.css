@@ -1,0 +1,73 @@
+.searchResults{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    opacity: 1;
+}
+.searchResults:hover{
+    opacity: 0.8;
+}
+.searchResults>img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.searchResults__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.searchResults__heart{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    right: 40px;
+}
+
+.liked{
+    color: red;
+}
+
+.info__top{
+    width: 40vw;
+}
+
+.info__top>h3{
+    font-weight: 300px;
+    margin-top: 10px;
+}
+.info__top>p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.info__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.starIcon{
+    color: red;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+}
+
+.searchResults__price > p{
+    text-align: right;
+}
+
+.searchResults__price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
